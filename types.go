@@ -699,7 +699,7 @@ func (e MessageEntity) IsItalic() bool {
 	return e.Type == "italic"
 }
 
-// IsCode returns true if the type of the message entity is "code" (monowidth string).
+// IsCode returns true if the type of the message entity is "code" (mo nowidth string).
 func (e MessageEntity) IsCode() bool {
 	return e.Type == "code"
 }
